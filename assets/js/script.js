@@ -18,6 +18,7 @@ var totalCharacters = prompt("please enter desired password length between 8 and
 
 if (totalCharacters < 8 || totalCharacters > 128) {
   alert("warning! invalid value! please refresh page and try again");
+  document.location.reload();
   //prompt("warning! invalid value! please enter desired password length between 8 and 128:", "re-enter value");
 } else {
   alert("great! you selected: " + (totalCharacters));
@@ -76,12 +77,16 @@ for (var i = 0; i < totalCharacters; i++) {
   //console.log(index);
   var value = (characterBank[index])
   password.push(value);
-  console.log(password);
 }
-// trying to isolate the return of the new string ONLY once its length matches totalCharacters
-// if (password.length) = totalCharacters; {
-//   console.log(password);
-// }
+//outside of function, displays the final password array
+console.log(password);
+
+//this yields a string without commas
+var finalForm = password.join("");
+console.log(finalForm);
+
+//DISPLAYS IN GENERATE PASSWORD BOX 
+document.getElementById("password").innerHTML = finalForm;
 
 //BELOW IS ALL EXPERIMENTATION//
 
