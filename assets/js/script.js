@@ -44,7 +44,7 @@ function generatePassword() {
   var characterBank = [];
   var finalPassword = [];
 
-  //Adds all selected characters to a new array
+  //Adds all selected characters to a new array called characterBank
   if (char1) {
     characterBank = characterBank.concat(noCaps);
   }
