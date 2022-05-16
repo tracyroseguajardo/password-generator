@@ -10,4 +10,4 @@ To build this application, I was given starter HTML and CSS code as well as a fe
 
 No amount of luck will aid any hacker that tries to break into an account secured with a password derived from the Password Generator!
 
-The attached screenshot shows the application at work. A previously derived password is displayed on the screen, while the user has just begun the generation sequence of a new password. (./assets/images/password-generator-screenshot.png)
+The attached screenshot shows the application at work. A previously derived password is displayed on the screen, while the user has just begun the generation sequence of a new password. ![](./assets/images/password-generator-screenshot.png)
