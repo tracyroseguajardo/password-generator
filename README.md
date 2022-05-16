@@ -8,4 +8,6 @@ Each time an employee needs to change their password they can simply click the G
 
 To build this application, I was given starter HTML and CSS code as well as a few lines of JavaScript. I then worked to build out functions in JavaScript that would respond seamlessly through the user interface to allow the user to input thier personalized values and decisions. I wrote functions and made arguments to ensure that the user adhered to the parameters and always submitted info that was easily workable. This takes out all room for error and takes responsibilty off the user to follow a long series of very specific instructions.
 
+The attached screenshot shows the application at work. A previously derived password is displayed on the screen, while the user has just begun the generation sequence of a new password. (./assets/images/password-generator-screenshot.png)
+
 No amount of luck will aid any hacker that tries to break into an account secured with a password derived from the Password Generator!
